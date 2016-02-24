@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Getting Started</title>
+	<script src="lib/kiwi.js"></script>
+	<script src="lib/planetas.js"></script>
+	<script type='text/javascript' src='lib/popup.js'></script>
+<style type="text/css">
+body{
+background-image: url('img/bg1.png');
+background-repeat: repeat;
+background-size: 100%;
+}
+</style>
+</head>
+
+<body>
+
+	<div id="container"class="img"> 
+
+		<div id="ampliacion" style="padding:2 2 2 2px; position:absolute; left: 800px; top: 50px; visibility: hidden; background-repeat: no-repeat;">
+		<div id="c1">
+
+		</div>
+		<div id="cerrarampliacion" style="background-color:333333; font-family:arial,verdana; font-size:8pt; line-height:20px; text-align:right;float:right; height: 20px; padding-right:5px;">
+		<a href="javascript:cerrar_ampliacion()" style="color:#ffffff;">[X] Cerrar</a>
+		</div>
+		</div>
+		
+		<a href="javascript:muestra_imagen('img/psol.png',400,500)"><img src="img/iconsun.png"/></a>
+		<a href="javascript:muestra_imagen('img/pmercurio.png',400,500)"><img src="img/iconmercury.png"/></a>
+		<a href="javascript:muestra_imagen('img/pvenus.png',400,500)"><img src="img/iconvenus.png"/></a>
+		<a href="javascript:muestra_imagen('img/ptierra.png',400,500)"><img src="img/iconearth.png"/></a>
+		<a href="javascript:muestra_imagen('img/pmarte.png',400,500)"><img src="img/iconmars.png"/></a>
+		<a href="javascript:muestra_imagen('img/pjupiter.png',400,500)"><img src="img/iconjupiter.png"/></a>
+		<a href="javascript:muestra_imagen('img/psaturno.png',400,500)"><img src="img/iconsaturn.png"/></a>
+		<a href="javascript:muestra_imagen('img/purano.png',400,500)"><img src="img/iconuranus.png"/></a>
+		<a href="javascript:muestra_imagen('img/pneptuno.png',375,450)"><img src="img/iconneptune.png"/></a>
+		 
+	</div>
+
+</body>
+</html>
