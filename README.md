@@ -1,4 +1,4 @@
-# kiwijs-espa-ol
+# Kiwi.js en castellano
 Proyectos KiwiJS en español
 
 -----------------------
