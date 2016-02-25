@@ -5,9 +5,9 @@ Proyectos KiwiJS en español
 
 Proyecto realizado por:
 
-Jesús Sánchez
-Lucia Ortega
-Jaime Bosch
+- Jesús Sánchez
+- Maria Ortega
+- Jaime Bosch
 
 -----------------------
 
